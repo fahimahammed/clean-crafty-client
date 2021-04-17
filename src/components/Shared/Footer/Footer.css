@@ -1,0 +1,17 @@
+/* .footer-area{
+    background-image: url(../../../images/footer-bg.png);
+    background-size: cover;
+} */
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    
+    border-radius: 50%;
+    border: 1px solid #028585;
+    padding: 10px;
+}

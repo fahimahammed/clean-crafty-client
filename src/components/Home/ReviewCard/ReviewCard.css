@@ -1,0 +1,17 @@
+.review-card{
+    width: 18rem;
+    height: 14rem;
+    border: 2px solid rgb(9, 3, 98);
+    border-radius: 15px 50px;
+    margin: 1rem;
+    
+    color: rgb(7, 0, 0);
+    padding: 0.8rem;
+}
+.user{
+    justify-content: end;
+}
+.user-photo img{
+    width: 50px;
+    border-radius: 50%;
+}

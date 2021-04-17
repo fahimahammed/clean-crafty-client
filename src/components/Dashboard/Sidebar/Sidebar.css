@@ -1,0 +1,16 @@
+.sidebar{
+    height: 38rem;
+    background-color: rgba(207, 245, 227, 0.644);
+}
+.sidebar-logo{
+    width: 10rem;
+    margin: 0 auto 0 auto;
+}
+.sidebar-item{
+    padding: 5px;
+}
+.sidebar-item:hover {
+    background-color: white;
+}
+
+

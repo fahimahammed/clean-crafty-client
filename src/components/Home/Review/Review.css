@@ -1,0 +1,19 @@
+.review-container{
+    background-image: url('../../../images/reviewBg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.review-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    
+}
+.review-container h1{
+    font-family: 'Righteous', cursive;
+}
+.review-container span{
+    color: rgb(7, 7, 105);
+}

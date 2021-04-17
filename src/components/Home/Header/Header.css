@@ -1,0 +1,36 @@
+.slide-bg1{
+    background-image: url('../../../images/cover-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-bg2{
+    background-image: url('../../../images/cover-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-bg3{
+    background-image: url('../../../images/cover-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-text{
+    padding-left: 7rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.slide-text h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(10, 3, 73);
+}
+.service-btn{
+    font-weight: 600;
+    border: 2px solid blue;
+    background-color: rgba(4, 3, 63, 0.726);
+    color: white;
+}
+.service-btn:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid rgba(10, 10, 218, 0.335);
+}

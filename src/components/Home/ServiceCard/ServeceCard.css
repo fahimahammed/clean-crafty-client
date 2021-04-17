@@ -1,0 +1,33 @@
+.service-icon{
+    width: 100px;
+ 
+}
+.service-card{
+    border-radius: 15px;
+    width: 15rem;
+    text-align: center;
+    margin: 1rem;
+    transition: height 2s;
+    
+}
+
+/* The animation code */
+@keyframes example {
+    from {background-color: rgba(242, 243, 246, 0.445);}
+    to {background-color: rgba(186, 187, 246, 0.644);}
+}
+
+/* The element to apply the animation to */
+.service-card:hover {
+    background-color: rgba(170, 218, 246, 0.541);
+    animation-name: example;
+    animation-duration: 1s;
+    height: 20.5rem;
+
+/* animation-name: example;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate; */
+}

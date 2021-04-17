@@ -1,0 +1,15 @@
+.blog-container{
+    background-color: rgba(58, 204, 248, 0.082);
+}
+
+.blog-container h1{
+    font-family: 'Righteous', cursive;
+}
+.blog-container span{
+    color: rgb(7, 7, 105);
+}
+.blog-post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

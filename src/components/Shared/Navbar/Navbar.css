@@ -1,0 +1,8 @@
+.logo{
+    width: 130px;
+}
+.profile-pic{
+    width: 45px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
