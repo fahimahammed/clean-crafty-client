@@ -21,6 +21,7 @@ import Services from './components/Home/Services/Services';
 import Navbar from './components/Shared/Navbar/Navbar';
 import Footer from './components/Shared/Footer/Footer';
 import ServiceContainer from './components/ServiceContainer/ServiceContainer';
+import NoMatch from './components/NoMatch/NoMatch';
 
 export const UserContext = createContext();
 
@@ -72,6 +73,9 @@ function App() {
           </PrivateRoute>
           <Route exact path='/'>
             <Home></Home>
+          </Route>
+          <Route path='/*'>
+            <NoMatch></NoMatch>
           </Route>
         </Switch>
       </Router>
