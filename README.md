@@ -1,5 +1,5 @@
 # Clean Crafty
-A home, apartment, office etc cleaning company website.
+A home, apartment, office etc cleaning company website. People can get cleaning service from this website.
 
 ### Technology:
 JavaScript, React, Bootstrap, HTML, CSS, Firebase

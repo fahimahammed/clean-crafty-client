@@ -2,7 +2,7 @@
     background-image: url('../../../images/overviewBg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    width: 100%;
 }
 .overview-container div{
     background-color: rgba(34, 53, 56, 0.671);

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from '../../Shared/Navbar/Navbar';
 import './Header.css';
 
@@ -18,7 +19,7 @@ const Header = () => {
                             <br/><br/><br/>
                             <h1>Spring <br/>Cleaning? <br/>Don't Panic!</h1> <br/>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem porro ipsa, nam pariatur in est?</p> <br/>
-                            <button className='btn service-btn rounded-pill'>See Our Service</button> <br/> <br/>
+                            <Link to='/services'><button className='btn service-btn rounded-pill'>See Our Service</button></Link> <br/> <br/>
                         </div>
                     </div>
                         <div class="carousel-item slide-bg2">

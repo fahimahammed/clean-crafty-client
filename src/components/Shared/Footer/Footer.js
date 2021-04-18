@@ -4,6 +4,7 @@ import './Footer.css';
 import logo from '../../../images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
     
     const contacts = [
@@ -29,7 +30,7 @@ const Footer = () => {
                         <img className='img-fluid w-50' src={logo} alt=""/> <br/> <br/> <br/>
                         <p>We use natural and eco-friendly cleaning products and have a customer satisfaction guarantee.</p>
                         <p>Our online scheduling and payment system is safe.</p>
-                        <button className="btn btn-outline-primary rounded-pill border border-5 border-primary">Get Our Services</button>
+                        <Link to='/services'><button className="btn btn-outline-primary rounded-pill border border-5 border-primary">Get Our Services</button></Link>
                     </div>
                     <FooterCol key={1} menuTitle="Our Services" menuItems={cleaningServices}/>
                     <FooterCol key={2} menuTitle="Contacts" menuItems={contacts}> 
@@ -37,7 +38,7 @@ const Footer = () => {
                             <li className="list-inline-item text-primary"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
                             <li className="list-inline-item text-primary"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
                             <li className="list-inline-item text-primary"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faTwitter} /></a></li>
-                            <li className="list-inline-item text-primary"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faYoutube} /></a></li>
+                            <li className="list-inline-item text-primary"><a href="//youtube.com"><FontAwesomeIcon className="icon" icon={faYoutube} /></a></li>
                         </ul>
                         <div className='pt-3'>
                             <h6>Hotline</h6>
