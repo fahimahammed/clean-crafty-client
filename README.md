@@ -2,7 +2,7 @@
 A home, apartment, office etc cleaning company website. People can get cleaning service from this website.
 
 ### Technology:
-JavaScript, React, Bootstrap, HTML, CSS, Firebase
+JavaScript, React, Bootstrap, HTML, CSS, Firebase, Mongodb, Heroku, Express, Node
 
 ### installation guide:
 npx create-react-app clean-crafty
