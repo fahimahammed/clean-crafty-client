@@ -57,7 +57,7 @@ const AddService = () => {
                             {errors.name && <span style={{color: 'red'}}>Service name is required</span>} <br/>
                         </div>
                         <div className="col-md-3">
-                            <h6 className='text-primary'>Price</h6>
+                            <h6 className='text-primary'>Service Charge</h6>
                             <input {...register("price", { required: true })} /> <br/>
                             {errors.price && <span style={{color: 'red'}}>Price is required</span>} <br/>
                         </div>

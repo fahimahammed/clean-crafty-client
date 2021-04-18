@@ -16,7 +16,7 @@ const ReviewCard = ({singleReview}) => {
                     <small><i>( {designation} )</i></small>
                 </div>
             </div>
-            <p> {comment} </p>
+            <p><i>"{comment}"</i> </p>
             
         </div>
     );

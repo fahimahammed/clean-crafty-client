@@ -2,6 +2,7 @@
     background-image: url('../../../images/reviewBg.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100%;
 }
 .review-card-container{
     display: flex;

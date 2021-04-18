@@ -48,7 +48,7 @@ const Checkout = () => {
             <div style={{display: order ? 'none' : 'block'}} className='col-md-8 p-5'>
                 <h3 className='pb-2 text-info'>Checkout</h3><hr/>
                 <h5 className='pt-2 text-primary'>Service Name: {name}</h5>
-                <p className="pb-2 text-primary">Price: $ {price}</p>
+                <p className="pb-2 text-primary">Service Charge: $ {price}</p>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <h6>Your Name</h6>
                     <input defaultValue={displayName} {...register("displayName")} placeholder='Your Name' size='50'/> <br/>

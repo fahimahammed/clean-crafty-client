@@ -12,7 +12,7 @@ const ManageServiceCard = ({service}) => {
     return (
         <div className="row m-2 bg-light">
                 <div className="col-md-3">{name}</div>
-                <div className="col-md-1 text-center">{price}</div>
+                <div className="col-md-1 text-center">${price}</div>
                 <div className="col-md-4">{description}</div>
                 <div className="col-md-3 text-center">
                     <button onClick={()=>deleteProduct(_id)}  className='btn btn-danger'> <FontAwesomeIcon icon={faTrashAlt} /> </button>

@@ -18,7 +18,7 @@ const ManageService = () => {
                 <h3 className='text-primary'>Manage Services</h3> <hr/>
                 <div className="row text-success">
                     <div className="col-md-3"><h5>Service Title</h5></div>
-                    <div className="col-md-1 text-center"><h5>Price</h5></div>
+                    <div className="col-md-1 text-center"><h5>Charge</h5></div>
                     <div className="col-md-4"><h5>Description</h5></div>
                     <div className="col-md-3 text-center"><h5>Action</h5></div>
                 </div> <hr/>
